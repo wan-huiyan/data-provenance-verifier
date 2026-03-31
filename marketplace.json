@@ -1,0 +1,10 @@
+{
+  "name": "wan-huiyan-data-provenance-verifier",
+  "owner": { "name": "Huiyan Wan" },
+  "plugins": [{
+    "name": "data-provenance-verifier",
+    "source": ".",
+    "description": "Verify that external data files are genuine, not fabricated by an AI agent.",
+    "version": "1.0.0"
+  }]
+}

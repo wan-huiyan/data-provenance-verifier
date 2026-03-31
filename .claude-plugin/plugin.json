@@ -1,0 +1,9 @@
+{
+  "name": "data-provenance-verifier",
+  "description": "Verify that external data files in a repository are genuine, not fabricated by an AI agent.",
+  "version": "1.0.0",
+  "author": { "name": "Huiyan Wan" },
+  "repository": "https://github.com/wan-huiyan/data-provenance-verifier",
+  "license": "MIT",
+  "keywords": ["data-quality", "provenance", "ai-safety", "data-audit", "verification"]
+}
