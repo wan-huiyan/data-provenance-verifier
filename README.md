@@ -1,4 +1,5 @@
 # Data Provenance Verifier
+[![GitHub release](https://img.shields.io/github/v/release/wan-huiyan/data-provenance-verifier)](https://github.com/wan-huiyan/data-provenance-verifier/releases) [![Claude Code](https://img.shields.io/badge/Claude_Code-skill-orange)](https://claude.com/claude-code) [![license](https://img.shields.io/github/license/wan-huiyan/data-provenance-verifier)](LICENSE) [![last commit](https://img.shields.io/github/last-commit/wan-huiyan/data-provenance-verifier)](https://github.com/wan-huiyan/data-provenance-verifier/commits)
 
 Catch fabricated data files before they contaminate your analysis. A Claude Code skill that audits external data files (CSV, JSON, Excel) for authenticity by checking provenance documentation, spot-checking against real APIs, and flagging suspect files.
 
