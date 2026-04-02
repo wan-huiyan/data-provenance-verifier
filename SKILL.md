@@ -10,6 +10,8 @@ description: |
   containing external datasets (weather, search trends, economic indices, etc.) — these
   are the highest-risk files for AI fabrication. Also trigger when the user asks to add
   a .provenance.md file or document where data came from.
+composable_with:
+  - causal-impact-campaign: Run provenance checks on weather CSVs, Google Trends exports, and other external data before causal impact analysis. The causal-impact-campaign skill fetches Open-Meteo weather, Google Trends, and sale detection data — all high-risk for AI fabrication.
 ---
 
 # Data Provenance Verifier
