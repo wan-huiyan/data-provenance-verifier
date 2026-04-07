@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wan-huiyan-data-provenance-verifier",
+  "description": "Single-plugin marketplace for data-provenance-verifier — Verify that external data files are genuine, not fabricated by an AI agent.",
+  "owner": {
+    "name": "wan-huiyan"
+  },
+  "plugins": [
+    {
+      "name": "data-provenance-verifier",
+      "source": "./plugins/data-provenance-verifier",
+      "description": "Verify that external data files are genuine, not fabricated by an AI agent.",
+      "version": "1.1.0"
+    }
+  ]
+}
