@@ -27,16 +27,26 @@ MISSING:     data/holiday_calendar.csv — no .provenance.md, source unknown
 
 ## Installation
 
-**Claude Code:**
+**Claude Code (plugin install — recommended):**
 ```bash
-# Git clone (recommended)
+# Add the marketplace, then install the plugin
+claude plugin marketplace add wan-huiyan/data-provenance-verifier
+claude plugin install data-provenance-verifier@wan-huiyan-data-provenance-verifier
+```
+
+**Claude Code (git clone):**
+```bash
 git clone https://github.com/wan-huiyan/data-provenance-verifier.git ~/.claude/skills/data-provenance-verifier
 ```
 
-**Cursor (2.4+):**
+**Cursor** (2.4+):
 ```bash
+# Per-project rule (most reliable)
 mkdir -p .cursor/rules
-# Copy SKILL.md content into .cursor/rules/data-provenance-verifier.mdc with alwaysApply: true
+# Copy plugins/data-provenance-verifier/SKILL.md content into .cursor/rules/data-provenance-verifier.mdc with alwaysApply: true
+
+# Or via npx skills CLI
+npx skills add wan-huiyan/data-provenance-verifier --global
 ```
 
 ## What You Get
